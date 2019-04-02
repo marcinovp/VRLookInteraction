@@ -1,0 +1,3 @@
+1. Prida SC_LookInteraction na Pawna/Character
+2. Prida na Pawna component Widget, nastavi ho ako child kamery
+3. Vo widgete nastavi User Interface->Space na Screen
