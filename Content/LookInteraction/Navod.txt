@@ -1,4 +1,5 @@
 1. Prida SC_LookInteraction na Pawna/Character
+2. Prida Pawnovi nejakı collider ak ešte nemá (napríklad malı Sphere collision komponent) a nastavi mu Collision Presets na "Pawn"
 2. Prida na Pawna component Widget, nastavi ho ako child kamery
 3. Zruši widgetu Generate Overlap Events a všetky kolízie
 
