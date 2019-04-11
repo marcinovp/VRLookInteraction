@@ -1,4 +1,8 @@
 1. Prida SC_LookInteraction na Pawna/Character
 2. Prida na Pawna component Widget, nastavi ho ako child kamery
-3. Vo widgete nastavi User Interface->Space na Screen
-4. Zruši widgetu Generate Overlap Events a všetky kolízie
+3. Zruši widgetu Generate Overlap Events a všetky kolízie
+
+Aby sa widget neskryl za objekty a bol vykreslenı stále pred všetkımi objektami
+//nie 4. Vo widgete nastavi User Interface->Space na Screen - nie
+4. Widgetu nastavi Rendering -> Blend Mode na Transparent
+5. Widget má materiál (Widget3DPassThrough_Translucent_OneSided) - toto je material instance. Uplne najvrchnejšiemu parentovi (Widget3DPassThrough) zaškrtnú Disable Depth Test.
